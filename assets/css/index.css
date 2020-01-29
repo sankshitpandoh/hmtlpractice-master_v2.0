@@ -1,16 +1,17 @@
 *{
   padding: 0;
   margin:0;
+  font-family: 'Titillium Web', sans-serif;
 }
+/* HEADER BEGINS HERE*/
 header{
   background-color: purple;
-  font-family: 'Titillium Web', sans-serif;
-  padding: 50px;
+  padding-bottom: 100px;
 }
 .hf-container{
  max-width: 70%;
  margin: 0 auto;
- height: 42px;
+ padding: 50px;
 }
 .hf-container nav{
  float: right;
@@ -36,4 +37,25 @@ ul,li{
   float: left;
   max-width: 150px;
   max-height: 100px;
+}
+
+.first-section{
+  background-color: purple;
+  color: white;
+  padding-bottom: 75px;
+}
+.first-section-container{
+  max-width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+.first-section-container a{
+  background-color: #eb7d4b;
+  color: white;
+  border-radius: 3px;
+  padding: 10px 50px;
+  text-decoration: none;
+}
+h1{
+  padding-bottom: 35px;
 }
