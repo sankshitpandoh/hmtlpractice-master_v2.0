@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin:0;
+}
+header{
+  background-color: purple;
+  font-family: 'Titillium Web', sans-serif;
+  padding: 50px;
+}
+.hf-container{
+ max-width: 70%;
+ margin: 0 auto;
+ height: 42px;
+}
+.hf-container nav{
+ float: right;
+ margin-top: 12px;
+
+}
+ul,li{
+  display: inline;
+  list-style-type: none;
+}
+.hf-container a{
+  background-color: purple;
+  color: white;
+  padding: 6px 10px;
+  text-decoration: none;
+}
+.hf-container a:hover, a:active{
+  background-color: indigo;
+  color: white;
+  border-radius: 3px;
+}
+.logo{
+  float: left;
+  max-width: 150px;
+  max-height: 100px;
+}
