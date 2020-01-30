@@ -24,6 +24,8 @@ header{
 ul,li{
   display: inline;
   list-style-type: none;
+
+/* used multiple times */
 }
 .hf-container a{
   background-color: purple;
@@ -76,7 +78,15 @@ h1{
 
 .section-container{
   text-align: center;
-  /* F4 category container - used multiple times*/
+  /* 4 category container - used multiple times*/
+}
+.section-container p{
+  padding-bottom: 100px;
+
+  /* section description under each decor line - ised multiple times */
+}
+.section-container h2{
+  padding-top: 20px;
 }
 .decor-line{
   opacity: 0.15;
@@ -84,16 +94,63 @@ h1{
 }
 .section-text{
   text-align: center;
+  margin: 0 auto;
+  width: 30%
   /* section text under each section's decor line, also multiple times used */
 }
 .cat-container{
-  max-width: 70%;
+  max-width: 75%;
   margin: 0 auto;
-  justify-content: space-between;
+  display: inline-block;
 }
 .single-cat-container{
-  max-width: 12.5%;
+  max-width: 14.5%;
+  float: left;
   text-align: center;
-  display: inline-block;
-  margin-left: 0;
+  margin: 0 70px;
+}
+
+/* second section ends here  */
+/* third section starts here */
+.third-section{
+  background-color: #e7f1f8;
+  color: #3c4761;
+}
+
+/* third section ends here  */
+/* fourth section starts here */
+
+.fourth-section{
+  background-color: #ffffff;
+  color: #3c4761;
+}
+
+/* fourth section ends here  */
+/* fifth section starts here */
+
+.fifth-section{
+  background-color: #ffdd99;
+  color: #393939;
+}
+.section-container a{
+  color: #393939;
+  border-radius: 2px;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+.section-bottom-link{
+  background-color: #17c2a4;
+  color: #ffffff
+}
+.nav-portfolio a{
+  background-color: #ebc985;
+}
+
+/* fifth section ends here  */
+/* sixth section starts here */
+
+.sixth-section{
+  background-color: #d74680;
+  color: #ffffff;
 }
