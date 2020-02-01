@@ -3,6 +3,7 @@
   margin:0;
   font-family: 'Titillium Web', sans-serif;
 }
+* *, *::before, *::after{box-sizing: border-box;}
 /* HEADER BEGINS HERE*/
 header{
   background-color: purple;
@@ -77,6 +78,9 @@ h1{
 }
 
 .section-container{
+  max-width: 1170px;
+  margin:0 auto;
+  padding: 0 15px;
   text-align: center;
   /* 4 category container - used multiple times*/
 }
@@ -92,22 +96,24 @@ h1{
   opacity: 0.15;
   /* decor line under heading of each section, also used multiple times*/
 }
-.section-text{
-  text-align: center;
-  margin: 0 auto;
-  width: 30%
-  /* section text under each section's decor line, also multiple times used */
-}
 .cat-container{
-  max-width: 75%;
-  margin: 0 auto;
-  display: inline-block;
+  padding-top: 30px;
+}
+.clearfix:after{
+	content: '';
+	clear: both;
+	display: block;
 }
 .single-cat-container{
-  max-width: 14.5%;
+  width: 25%;
   float: left;
   text-align: center;
-  margin: 0 70px;
+  padding: 0 15px;
+}
+.single-cat-container img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
 }
 
 /* second section ends here  */
@@ -131,6 +137,20 @@ h1{
 .fifth-section{
   background-color: #ffdd99;
   color: #393939;
+}
+.cat-container1{
+  padding-top: 30px;
+}
+.inner-cat-container1{
+}
+.single-cat-container1{
+  width: 50%;
+  float: left;
+  padding: 0 15px;
+  text-align: center;
+}
+.section-bottom-button-ct{
+  padding-bottom: 100px;
 }
 .section-container a{
   color: #393939;
@@ -233,4 +253,37 @@ footer{
 .f-container a:hover,a:active{
   color: #3370ac;
   background-color: transparent;
+}
+
+/* Responsive tags*/
+
+@media (max-width: 1500px){
+  .single-cat-container img{
+    width: 70px;
+    height: 70px;
+  }
+  .single-cat-container1 img{
+    width: 70%;
+    height:70%;
+  }
+}
+
+@media (max-width: 991px){
+  .single-cat-container{
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .single-cat-container1{
+    width:50%;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 767px){
+  .single-cat-container{
+    width: 100%;
+  }
+  .single-cat-container1{
+    width:100%;z
+  }
 }
