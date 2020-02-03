@@ -77,7 +77,8 @@ ul,li{           /* used multiple times */
   margin:0 auto;
   padding: 0 15px;
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .section-container p{    /* section description under each decor line - used multiple times */
   padding-bottom: 20px;
@@ -186,7 +187,7 @@ ul,li{           /* used multiple times */
 .testimonial-txt-section{
   text-align: left;
   float: right;
-  width: 60%;
+  width: 65%;
 }
 .single-testimonial h5{
   color: #ffdd99;
@@ -203,6 +204,7 @@ ul,li{           /* used multiple times */
   color: #ffffff;
 }
 .form-wrapper{
+  padding-top: 5%;
   width:50%;
   margin: 0 auto;
   padding-bottom: 5%;
@@ -232,13 +234,16 @@ ul,li{           /* used multiple times */
  border-radius: 2px;
  padding: 10px;
 }
-.form-wrapper input{
+.form-wrapper .send-message{
   background-color: #30bae7;
   color: white;
   border: none;
   border-radius: 2px;
   width:25%;
   padding: 10px;
+}
+.form-wrapper .send-message:hover, .send-message:active{
+  background-color: #2382a1;
 }
 /* //////////////////////Place holder css for input area  */
 ::-webkit-input-placeholder {    /* chrome/safari*/
@@ -263,16 +268,12 @@ ul,li{           /* used multiple times */
   padding-left: 10px;
 }
 /* /////////////////////////placeholder css ends */
-.send-message{
-  background-color: #30bae7
-}
 /* Get in Touch ends here  */
 
 
 /* footer starts here */
 footer{
   background-color: #344b8e;
-  padding: 2%;
 }
 footer .single-cat-container{
   width: 14%;
