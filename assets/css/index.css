@@ -44,31 +44,31 @@ ul,li{           /* used multiple times */
 
 
 /* main banner starts here*/
-.first-section{
+.main-banner{
   background-color: purple;
   color: white;
   padding-bottom: 75px;
 }
-.first-section-container{
+.main-banner-container{
   max-width: 40%;
   margin: 0 auto;
   text-align: center;
 }
-.first-section-container a{
+.main-banner-container a{
   background-color: #eb7d4b;
   color: white;
   border-radius: 3px;
   padding: 10px 50px;
   text-decoration: none;
 }
-.first-section-container h1{
+.main-banner-container h1{
   padding-bottom: 35px;
 }
 /* main banner ends here*/
 
 
 /* services we provide starts here*/
-.second-section{
+.services-section{
   background-color: #17c2a4;
   color: white;
 }
@@ -77,9 +77,10 @@ ul,li{           /* used multiple times */
   margin:0 auto;
   padding: 0 15px;
   text-align: center;
+  padding-bottom: 25px;
 }
 .section-container p{    /* section description under each decor line - used multiple times */
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .section-container h2{
   padding-top: 20px;
@@ -111,7 +112,7 @@ ul,li{           /* used multiple times */
 
 
 /* meet our team starts here */
-.third-section{
+.team-section{
   background-color: #e7f1f8;
   color: #3c4761;
 }
@@ -129,7 +130,7 @@ ul,li{           /* used multiple times */
 
 
 /* we got skills starts here */
-.fourth-section{
+.skills-section{
   background-color: #ffffff;
   color: #3c4761;
 }
@@ -137,7 +138,7 @@ ul,li{           /* used multiple times */
 
 
 /* our portfolio starts here */
-.fifth-section{
+.portfolio-section{
   background-color: #ffdd99;
   color: #393939;
 }
@@ -171,7 +172,7 @@ ul,li{           /* used multiple times */
 
 
 /* what people say about us starts here */
-.sixth-section{
+.sayaboutus-section{
   background-color: #d74680;
   color: #ffffff;
 }
@@ -197,7 +198,7 @@ ul,li{           /* used multiple times */
 
 
 /* Get in Touch starts here */
-.seventh-section{
+.getintouch-section{
   background-color: #3c5499;
   color: #ffffff;
 }
