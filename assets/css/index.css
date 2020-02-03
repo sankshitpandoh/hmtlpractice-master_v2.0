@@ -123,7 +123,16 @@ h1{
   background-color: #e7f1f8;
   color: #3c4761;
 }
-
+.single-cat-container .social-links img{
+  width:30px;
+  height:30px;
+}
+.single-cat-container .social-links a{
+  padding: 0;
+}
+.single-cat-container .social-links a:hover, a:active{
+  background-color: transparent;
+}
 /* third section ends here  */
 /* fourth section starts here */
 
