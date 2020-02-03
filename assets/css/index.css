@@ -85,7 +85,7 @@ h1{
   /* 4 category container - used multiple times*/
 }
 .section-container p{
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 
   /* section description under each decor line - ised multiple times */
 }
@@ -98,6 +98,7 @@ h1{
 }
 .cat-container{
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 .clearfix:after{
 	content: '';
@@ -141,12 +142,11 @@ h1{
 .cat-container1{
   padding-top: 30px;
 }
-.inner-cat-container1{
-}
+
 .single-cat-container1{
   width: 50%;
   float: left;
-  padding: 0 15px;
+  padding: 0 15px 50px 0px;
   text-align: center;
 }
 .section-bottom-button-ct{
@@ -174,11 +174,24 @@ h1{
   background-color: #d74680;
   color: #ffffff;
 }
-.single-testimonial img{
-  float: left;
-
+.single-testimonial{
+  width:80%;
 }
-
+.single-testimonial img{
+  height: 80px;
+  width: 80px;
+}
+.testimonial-txt-section{
+  text-align: left;
+  float: right;
+  width: 60%;
+}
+.single-testimonial h5{
+  color: #ffdd99;
+}
+.single-testimonial h4{
+  padding-top: 20px
+}
 /* sixth section ends here  */
 /* seventh section starts here */
 
@@ -191,23 +204,38 @@ h1{
   margin: 0 auto;
   padding-bottom: 5%;
 }
-.form-wrapper input{
-  width: 45%;
+.form-wrapper .cat-container1{
+  padding-top: 0;
+  padding-bottom: 50px;
+  width:100%;
+}
+.form-wrapper .cat-container1 .single-cat-container1{
+  padding: 0px 5px 0px 5px;
+}
+.form-wrapper .cat-container1 .single-cat-container1 input{
+  width: 100%;
   float: left;
-  margin-bottom: 3%;
-  margin-left: 3%;
   background-color: #273a71;
   border: none;
+  color: white;
   border-radius: 2px;
-  padding: 2% 0;
+  padding: 10px;
 }
-.form-wrapper textarea{
- width: 93%;
+.cat-container1 textarea{
+ width: 100%;
  background-color: #273a71;
  border: none;
+ color: white;
  border-radius: 2px;
- height: 100%;
- padding: 2% 0.5%;
+ padding: 10px;
+}
+.form-wrapper input{
+  background-color: #30bae7;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  width:25%;
+  padding: 10px;
 }
 
 /* Place holder css for input area  */
@@ -244,19 +272,17 @@ footer{
   background-color: #344b8e;
   padding: 2%;
 }
-.f-container{
-  width: 70%;
-  margin: 0 auto;
+footer .single-cat-container{
+  width: 14%;
 }
-.f-container a{
+footer .single-cat-container a{
   color: #ffffff;
   text-decoration: none;
   margin-left: 58px;
   margin-right: 60px;
 }
-.f-container a:hover,a:active{
+footer .single-cat-container a:hover,a:active{
   color: #3370ac;
-  background-color: transparent;
 }
 
 /* Responsive tags*/
@@ -270,6 +296,10 @@ footer{
     width: 70%;
     height:70%;
   }
+  .single-testimonial img{
+    height: 40px;
+    width: 40px;
+  }
 }
 
 @media (max-width: 991px){
@@ -281,6 +311,9 @@ footer{
     width:50%;
     margin-bottom: 50px;
   }
+  footer .single-cat-container{
+    width: 12%;
+  }
 }
 
 @media (max-width: 767px){
@@ -289,5 +322,8 @@ footer{
   }
   .single-cat-container1{
     width:100%;z
+  }
+  footer .single-cat-container{
+    width:12%;
   }
 }
