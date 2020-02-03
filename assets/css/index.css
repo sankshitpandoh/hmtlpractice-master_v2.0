@@ -4,15 +4,13 @@
   font-family: 'Titillium Web', sans-serif;
 }
 * *, *::before, *::after{box-sizing: border-box;}
+
 /* HEADER BEGINS HERE*/
 header{
   background-color: purple;
   padding: 3%;
   padding-bottom: 6%
 }
-
-/* hf-container is being used at both header and footer*/
-
 .h-container{
  max-width: 70%;
  margin: 0 auto;
@@ -22,11 +20,9 @@ header{
  margin-top: 12px;
 
 }
-ul,li{
+ul,li{           /* used multiple times */
   display: inline;
   list-style-type: none;
-
-/* used multiple times */
 }
 .h-container a{
   background-color: purple;
@@ -44,10 +40,10 @@ ul,li{
   max-width: 150px;
   max-height: 100px;
 }
-
 /* HEADER ENDS HERE */
-/* first section starts here*/
 
+
+/* main banner starts here*/
 .first-section{
   background-color: purple;
   color: white;
@@ -65,36 +61,31 @@ ul,li{
   padding: 10px 50px;
   text-decoration: none;
 }
-h1{
+.first-section-container h1{
   padding-bottom: 35px;
 }
+/* main banner ends here*/
 
-/* first section ends here*/
-/* second section starts here*/
 
+/* services we provide starts here*/
 .second-section{
   background-color: #17c2a4;
   color: white;
 }
-
-.section-container{
+.section-container{     /* 4 category container - used multiple times*/
   max-width: 1170px;
   margin:0 auto;
   padding: 0 15px;
   text-align: center;
-  /* 4 category container - used multiple times*/
 }
-.section-container p{
+.section-container p{    /* section description under each decor line - used multiple times */
   padding-bottom: 50px;
-
-  /* section description under each decor line - ised multiple times */
 }
 .section-container h2{
   padding-top: 20px;
 }
-.decor-line{
+.decor-line{             /* decor line under heading of each section, also used multiple times*/
   opacity: 0.15;
-  /* decor line under heading of each section, also used multiple times*/
 }
 .cat-container{
   padding-top: 30px;
@@ -116,9 +107,10 @@ h1{
   height: 150px;
   margin-bottom: 15px;
 }
+/* services we provide ends here  */
 
-/* second section ends here  */
-/* third section starts here */
+
+/* meet our team starts here */
 .third-section{
   background-color: #e7f1f8;
   color: #3c4761;
@@ -133,17 +125,18 @@ h1{
 .single-cat-container .social-links a:hover, a:active{
   background-color: transparent;
 }
-/* third section ends here  */
-/* fourth section starts here */
+/* meet our team ends here  */
 
+
+/* we got skills starts here */
 .fourth-section{
   background-color: #ffffff;
   color: #3c4761;
 }
+/* we got skills ends here  */
 
-/* fourth section ends here  */
-/* fifth section starts here */
 
+/* our portfolio starts here */
 .fifth-section{
   background-color: #ffdd99;
   color: #393939;
@@ -151,7 +144,6 @@ h1{
 .cat-container1{
   padding-top: 30px;
 }
-
 .single-cat-container1{
   width: 50%;
   float: left;
@@ -175,10 +167,10 @@ h1{
 .nav-portfolio a{
   background-color: #ebc985;
 }
+/* our portfolio ends here  */
 
-/* fifth section ends here  */
-/* sixth section starts here */
 
+/* what people say about us starts here */
 .sixth-section{
   background-color: #d74680;
   color: #ffffff;
@@ -201,9 +193,10 @@ h1{
 .single-testimonial h4{
   padding-top: 20px
 }
-/* sixth section ends here  */
-/* seventh section starts here */
+/* what people say about us ends here  */
 
+
+/* Get in Touch starts here */
 .seventh-section{
   background-color: #3c5499;
   color: #ffffff;
@@ -246,9 +239,7 @@ h1{
   width:25%;
   padding: 10px;
 }
-
-/* Place holder css for input area  */
-
+/* //////////////////////Place holder css for input area  */
 ::-webkit-input-placeholder {    /* chrome/safari*/
  font-size: 14px;
  color: white;
@@ -270,12 +261,13 @@ h1{
   color: white;
   padding-left: 10px;
 }
-
-/* placeholder css ends */
+/* /////////////////////////placeholder css ends */
 .send-message{
   background-color: #30bae7
 }
-/* seventh section ends here  */
+/* Get in Touch ends here  */
+
+
 /* footer starts here */
 footer{
   background-color: #344b8e;
@@ -293,9 +285,10 @@ footer .single-cat-container a{
 footer .single-cat-container a:hover,a:active{
   color: #3370ac;
 }
+/* footer ends here */
+
 
 /* Responsive tags*/
-
 @media (max-width: 1500px){
   .single-cat-container img{
     width: 70px;
@@ -310,7 +303,6 @@ footer .single-cat-container a:hover,a:active{
     width: 40px;
   }
 }
-
 @media (max-width: 991px){
   .single-cat-container{
     width: 50%;
@@ -324,7 +316,6 @@ footer .single-cat-container a:hover,a:active{
     width: 12%;
   }
 }
-
 @media (max-width: 767px){
   .single-cat-container{
     width: 100%;
