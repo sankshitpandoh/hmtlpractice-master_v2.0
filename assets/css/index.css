@@ -60,6 +60,7 @@ ul,li{           /* used multiple times */
   border-radius: 3px;
   padding: 10px 50px;
   text-decoration: none;
+  border-bottom: 2px solid #c86a40;
 }
 .main-banner-container a:hover, a:active{
   background-color: #b35f39;
@@ -164,7 +165,8 @@ ul,li{           /* used multiple times */
 }
 .section-bottom-button-ct a{
   background-color: #17c2a4;
-  color: #ffffff
+  color: #ffffff;
+  border-bottom: 2px solid #14a58c;
 }
 .section-bottom-button-ct a:hover, a:active{
   background-color: #168975;
@@ -246,6 +248,7 @@ ul,li{           /* used multiple times */
   border: none;
   border-radius: 2px;
   padding: 10px 50px;
+  border-bottom: 2px solid #299ec5;
 }
 .form-wrapper .send-message:hover, .send-message:active{
   background-color: #2382a1;
